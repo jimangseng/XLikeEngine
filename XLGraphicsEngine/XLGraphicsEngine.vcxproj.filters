@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Renderable Objects">
+      <UniqueIdentifier>{23f81fc5-5b7a-4303-9b0a-6381f5843480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Renderer">
+      <UniqueIdentifier>{e4d9cc1a-bdde-4b24-b18e-797ffc0af767}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XLGraphicsEngine.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Axis.cpp">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperObject.cpp">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="IRenderableObject.cpp">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObject.cpp">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMesh.cpp">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GBuffer.cpp">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="XLCamera.cpp">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="XLD3D11Renderer.cpp">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad.cpp">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Cubemap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="XLUI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XLGraphicsEngine.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Axis.h">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperObject.h">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderableObject.h">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMesh.h">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.h">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>소스 파일\Renderable Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="XLD3D11Renderer.h">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GBuffer.h">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="XLCamera.h">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Cubemap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="XLUI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\FX\Cubemap.fx">
+      <Filter>소스 파일</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\solid.fx">
+      <Filter>소스 파일</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Deferred.fx">
+      <Filter>소스 파일</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Quad.fx">
+      <Filter>소스 파일</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

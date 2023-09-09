@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="XLEngine">
+    <Position X="1" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACgAgwAAIAAAAAAAAAEAgAAAAIAQAAAAAAA=</HashCode>
+      <FileName>XLEngine.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pGraphicsEngine" />
+      <Field Name="m_pGameplayEngine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="XLGraphicsEngine">
+    <Position X="4.5" Y="5.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAACgAACAAAwggAAAQAAAAAACAkKIAABAAAAAAIAA=</HashCode>
+      <FileName>XLGraphicsEngine.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pRenderer" />
+      <Field Name="m_pRenderQueue" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="XLD3D11Renderer">
+    <Position X="5.5" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABACgCQACCACIQAAAAIAAyAAAQCBkAKIQBEgAAACIQE=</HashCode>
+      <FileName>XLD3D11Renderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XLGameplayEngine">
+    <Position X="5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAQgACAAACAAAQBABAAAIAAAIBAAgAIAIAAAAACCAAA=</HashCode>
+      <FileName>XLGameplayEngine.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pCamera" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="IRenderableObject">
+    <Position X="15.75" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEUAQAAAAAAAAAAAAggAAABAAAAAAAAA=</HashCode>
+      <FileName>IRenderableObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelperObject">
+    <Position X="19.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgAAAAAAAAAQAAAAAAAAAAAAAAggAAABAAAAAAAAA=</HashCode>
+      <FileName>HelperObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkinnedMesh" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQgAAAAAAQAAAAAAAAAAAAAAggAAABAAAAAAAAA=</HashCode>
+      <FileName>SkinnedMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Axis" Collapsed="true">
+    <Position X="18.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Axis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grid" Collapsed="true">
+    <Position X="20.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Factory">
+    <Position X="16.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAMgABAAAAAAAAEAIAAAAAAAAAEAA=</HashCode>
+      <FileName>Factory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshObject">
+    <Position X="15" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADACkAAAAAAAEQAgAAAAAAAAAAABkgOAARECAAAAJAA=</HashCode>
+      <FileName>MeshObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XLCamera" Collapsed="true">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAicAABiAAAJkgBAAAQwAEwAIBogBggAFEAMAgAgI=</HashCode>
+      <FileName>XLCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="8.25" Y="7.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="std::vector&lt;_Ty, _Alloc&gt;::_Asan_extend_guard" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="std::vector&lt;_Ty, _Alloc&gt;::_Asan_create_guard" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>A2AAEYEiAbLsCEBAAONYMAkWMUUATBIggQkwghAFUko=</HashCode>
+      <FileName>C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vector</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
