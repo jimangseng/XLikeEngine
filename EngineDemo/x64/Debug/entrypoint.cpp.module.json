@@ -1,9 +1,0 @@
-{
-    "Version": "1.1",
-    "Data": {
-        "Source": "d:\\xlengine\\enginedemo\\entrypoint.cpp",
-        "ProvidedModule": "",
-        "ImportedModules": [],
-        "ImportedHeaderUnits": []
-    }
-}
